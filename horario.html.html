@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horario Escolar</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      margin: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #2b6cb0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #2b6cb0;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9fafb;
+    }
+    .hora {
+      background-color: #e2e8f0;
+      font-weight: bold;
+      width: 160px;
+    }
+    .descanso {
+      background: #fff7e6;
+      font-weight: 700;
+      color: #7a5200;
+    }
+  </style>
+</head>
+<body>
+  <h1>Horario Escolar</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>N° / Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="hora">1 (6:00 - 7:00)</td>
+        <td>Física<br>Juan G</td>
+        <td>Inglés<br>Hernando R</td>
+        <td>Ética y V<br>Leonela H</td>
+        <td>Física<br>Juan G</td>
+        <td>L. Castellana<br>Paula F</td>
+      </tr>
+      <tr>
+        <td class="hora">2 (7:00 - 8:00)</td>
+        <td>Sociales<br>Marlevis M</td>
+        <td>Inglés<br>Hernando R</td>
+        <td>Ed. Religiosa<br>Andrés B</td>
+        <td>Física<br>Juan G</td>
+        <td>L. Castellana<br>Paula F</td>
+      </tr>
+      <tr>
+        <td class="hora">3 (8:00 - 9:00)</td>
+        <td>Matemáticas<br>Juan G</td>
+        <td>Química<br>Danny C</td>
+        <td>Ed. Física<br>Luis R</td>
+        <td>Estadística<br>Alba U</td>
+        <td>Inglés<br>Hernando R</td>
+      </tr>
+      <tr>
+        <td class="hora">4 (9:00 - 10:00)</td>
+        <td>Matemáticas<br>Juan G</td>
+        <td>Química<br>Danny C</td>
+        <td>Matemáticas<br>Juan G</td>
+        <td>Sociales<br>Marlevis M</td>
+        <td>Inglés<br>Hernando R</td>
+      </tr>
+
+      <!-- Primer descanso corregido -->
+      <tr>
+        <td class="hora">(10:00 - 10:30 am)</td>
+        <td class="descanso" colspan="5">Descanso</td>
+      </tr>
+
+      <tr>
+        <td class="hora">5 (10:30 - 11:30)</td>
+        <td>L. Castellana<br>Paula F</td>
+        <td>Física<br>Juan G</td>
+        <td>Matemáticas<br>Juan G</td>
+        <td>Informática<br>Óscar B</td>
+        <td>Filosofía<br>Andrés B</td>
+      </tr>
+      <tr>
+        <td class="hora">6 (11:30 - 12:30)</td>
+        <td>Inglés<br>Hernando R</td>
+        <td>Física<br>Juan G</td>
+        <td>L. Castellana<br>Paula F</td>
+        <td>Química<br>Danny C</td>
+        <td>Filosofía<br>Andrés B</td>
+      </tr>
+
+      <!-- Segundo descanso corregido -->
+      <tr>
+        <td class="hora">(12:30 pm - 12:45 pm)</td>
+        <td colspan="5" class="descanso">Descanso</td>
+      </tr>
+
+      <tr>
+        <td class="hora">7 (12:45 - 1:45)</td>
+        <td>Inglés<br>Hernando R</td>
+        <td>Artística<br>Liz M</td>
+        <td>L. Castellana<br>Paula F</td>
+        <td>Química<br>Danny C</td>
+        <
